@@ -23,11 +23,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
   line-height: 1.25;
+  text-align: center;
 }
 
+.main {
+  background: url(../img/presentation.png);
+  height: 100vh;
+  background-size: cover;
+}
+
+.header {
+  background-image: url(../img/accueil.png);
+  height: 100vh;
+  background-size: cover;
+}
 a {
   color: inherit;
 }
@@ -39,6 +50,9 @@ video {
   vertical-align: middle;
 }
 
+button {
+  background: #03030300;
+}
 .row + .row {
   margin-top: 16px;
 }
@@ -56,10 +70,11 @@ body {
 }
 
 .slider-container {
-  overflow: hidden; /*Don't modify*/
+  overflow: hidden;
   background: #03030300;
-  width: 80%;
+  width: 100%;
   margin: auto;
+  margin-top: -62px;
 }
 
 .slide {
@@ -68,14 +83,13 @@ body {
   font-family: sans-serif;
   font-size: 50px;
   display: inline-block;
-  animation: slider 20s linear infinite; /*Don't modify*/
+  animation: slider 20s linear infinite;
 }
 
 .slider-row {
-  white-space: nowrap; /*Don't modify*/
+  white-space: nowrap;
 }
 
-/* Animation - Don't modify */
 @keyframes slider {
   from {
     transform: translateX(0);
@@ -125,7 +139,7 @@ body {
   position: fixed;
   top: 0;
   right: -300px;
-  background: #fff;
+  background: #ffffffb0;
   width: 250px;
   height: 100%;
   padding-top: 50px;
