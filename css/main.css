@@ -59,8 +59,15 @@ video {
 button {
   background: #03030300;
   font-family: "Alata", sans-serif;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 60px;
+  border-color: #000000;
+  border-style: solid;
 }
-.row + .row {
+
+/* .row + .row {
   margin-top: 16px;
 }
 
@@ -70,7 +77,7 @@ button {
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
-}
+} */
 
 body {
   background: #ffffff;
@@ -188,4 +195,15 @@ hr {
   height: 1.5px;
   width: 20%;
   margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.header button {
+  padding: 5px;
+  width: 75px;
+  margin: auto;
+  margin-top: 340px;
 }
