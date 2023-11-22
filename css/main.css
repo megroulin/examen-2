@@ -26,21 +26,27 @@ body {
   font-size: 1rem;
   line-height: 1.25;
   text-align: center;
+  background-color: #ffffff;
+  font-family: "Alata", sans-serif;
 }
 
 .main {
   background: url(../img/presentation.png);
   height: 100vh;
   background-size: cover;
+  font-family: "Alata", sans-serif;
 }
 
 .header {
   background-image: url(../img/accueil.png);
   height: 100vh;
   background-size: cover;
+  font-family: "Alata", sans-serif;
 }
+
 a {
   color: inherit;
+  font-family: "Alata", sans-serif;
 }
 
 img,
@@ -52,6 +58,7 @@ video {
 
 button {
   background: #03030300;
+  font-family: "Alata", sans-serif;
 }
 .row + .row {
   margin-top: 16px;
@@ -67,6 +74,7 @@ button {
 
 body {
   background: #ffffff;
+  font-family: "Alata", sans-serif;
 }
 
 .slider-container {
@@ -75,6 +83,7 @@ body {
   width: 100%;
   margin: auto;
   margin-top: -62px;
+  font-family: "Alata", sans-serif;
 }
 
 .slide {
@@ -84,10 +93,12 @@ body {
   font-size: 50px;
   display: inline-block;
   animation: slider 20s linear infinite;
+  font-family: "Alata", sans-serif;
 }
 
 .slider-row {
   white-space: nowrap;
+  font-family: "Alata", sans-serif;
 }
 
 @keyframes slider {
@@ -101,7 +112,8 @@ body {
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Alata", sans-serif;
+  background-color: #ffffff;
 }
 
 .burger-icon {
@@ -144,6 +156,7 @@ body {
   height: 100%;
   padding-top: 50px;
   transition: right 0.4s;
+  font-family: "Alata", sans-serif;
 }
 
 .menu ul {
@@ -167,4 +180,12 @@ body {
 
 #burger-toggle:checked + .burger-icon + .menu {
   right: 0;
+}
+
+hr {
+  border: none;
+  background-color: #000000;
+  height: 1.5px;
+  width: 20%;
+  margin: auto;
 }
