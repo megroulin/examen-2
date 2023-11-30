@@ -155,15 +155,18 @@ body {
 }
 
 .menu {
+  display: none;
   position: fixed;
   top: 0;
   right: -300px;
   background: #ffffffb0;
-  width: 250px;
-  height: 100%;
-  padding-top: 50px;
+  width: 10px;
+  /* height: 100%; */
+  /* padding-top: 50px; */
   transition: right 0.4s;
   font-family: "Alata", sans-serif;
+  text-decoration: none;
+  justify-content: flex-end;
 }
 
 .menu ul {
@@ -206,4 +209,12 @@ ul {
   width: 75px;
   margin: auto;
   margin-top: 340px;
+}
+
+footer {
+  background-color: rgb(243, 243, 243);
+}
+
+.reseaux {
+  width: 140px;
 }
