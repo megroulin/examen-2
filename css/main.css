@@ -44,6 +44,15 @@ body {
   font-family: "Alata", sans-serif;
 }
 
+.logo {
+  text-align: left;
+}
+
+.burger {
+  display: flex;
+  justify-content: flex-end;
+}
+
 a {
   color: inherit;
   font-family: "Alata", sans-serif;
