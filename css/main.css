@@ -44,6 +44,10 @@ body {
   font-family: "Alata", sans-serif;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
 .logo {
   text-align: left;
 }
@@ -265,6 +269,7 @@ ul {
 
 footer {
   background-color: rgb(243, 243, 243);
+  text-decoration: none;
 }
 
 .reseaux {
