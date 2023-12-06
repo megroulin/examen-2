@@ -69,11 +69,23 @@ button {
   background: #03030300;
   font-family: "Alata", sans-serif;
   padding: 5px;
+  margin: 0;
+  display: flex;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   text-decoration: none;
   border-radius: 60px;
   border-color: #000000;
   border-style: solid;
+}
+
+.book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
 }
 
 /* .row + .row {
@@ -201,6 +213,14 @@ body {
   right: 0;
 }
 
+.col-6 offset-6 col-lg-4 offset-lg-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  text-align: right;
+}
 hr {
   border: none;
   background-color: #000000;
@@ -218,6 +238,21 @@ ul {
   width: 75px;
   margin: auto;
   margin-top: 340px;
+}
+
+.img/spectacle.png {
+  width: 90%;
+  max-width: 100%;
+}
+
+.img/etchebest.png {
+  width: 90%;
+  max-width: 100%;
+}
+
+.img/alcool.png {
+  width: 90%;
+  max-width: 100%;
 }
 
 footer {
