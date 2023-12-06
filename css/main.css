@@ -240,6 +240,10 @@ ul {
   list-style: none;
 }
 
+.manger {
+  background-color: rgb(243, 243, 243);
+}
+
 .INFOS {
   background-color: #ffffff;
   text-align: left;
