@@ -65,7 +65,8 @@ video {
   vertical-align: middle;
 }
 
-button {
+button,
+.button {
   background: #03030300;
   font-family: "Alata", sans-serif;
   padding: 5px;
@@ -231,6 +232,13 @@ hr {
 
 ul {
   list-style: none;
+}
+
+.INFOS {
+  background-color: #ffffff;
+  text-align: left;
+  margin-top: 200px;
+  width: 80%;
 }
 
 .header button {
