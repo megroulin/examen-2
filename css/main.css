@@ -115,10 +115,12 @@ body {
   background: #03030300;
   width: 100%;
   margin: auto;
-  margin-top: -62px;
   font-family: "Alata", sans-serif;
 }
 
+.slider-container.top {
+  margin-top: -62px;
+}
 .slide {
   text-transform: uppercase;
   color: rgb(0, 0, 0);
