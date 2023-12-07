@@ -155,6 +155,8 @@ body {
   display: block;
   cursor: pointer;
   user-select: none;
+  position: relative;
+  z-index: 1;
 }
 
 .burger-icon span {
@@ -183,14 +185,12 @@ body {
 }
 
 .menu {
-  display: none;
   position: fixed;
   top: 0;
   right: -300px;
   background: #ffffffb0;
-  width: 10px;
-  /* height: 100%; */
-  /* padding-top: 50px; */
+  height: 100%;
+  padding-top: 50px;
   transition: right 0.4s;
   font-family: "Alata", sans-serif;
   text-decoration: none;
